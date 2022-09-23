@@ -101,11 +101,14 @@ function Intro() {
           </h2>
 
           <p class="mt-4 text-gray-600">
-            I am a coffee enthusiast, climber, painter, potter, DIYer and the
-            People & Culture Lead for the Digital Technologies team at{" "}
-            <a class="underline" href="http://tharsus.co.uk" target="$1">
-              Tharsus.
-            </a>
+            I am a coffee enthusiast, climber, painter, potter, DIYer and the{" "}
+            <b>People & Culture Lead</b> for the Digital Technologies team at{" "}
+            <span class="text-blue-600">
+              <a href="http://www.tharsus.co.uk" class="hover:underline focus:underline">
+                Tharsus{"  "}
+                <span class="group-hover:underline">→</span>
+              </a>
+            </span>
           </p>
         </div>
 
