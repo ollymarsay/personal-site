@@ -48,7 +48,7 @@ export default function Home(props: PageProps) {
             <Intro />
             {/* <GettingStarted origin={origin} /> */}
             {/* <Example /> */}
-            <Showcase />
+            <About />
             <Footer />
           </div>
         }
@@ -74,7 +74,7 @@ function Features() {
       <a class={item} href="/work">
         <FeatureIcons.Laptop />
         <div class={desc}>
-          <b>Work I have done</b> while at Tharsus{"  "}
+          <b>Some examples of work</b> I've done during my time with Tharsus{"  "}
           <span class="group-hover:underline">→</span>
         </div>
       </a>
@@ -82,7 +82,7 @@ function Features() {
       <a class={item} href="/art">
         <FeatureIcons.Pallette />
         <div class={desc}>
-          <b>Things I made</b>: with paint, clay, pencils and stuff{"  "}
+          <b>Things I made</b> with paint, clay, pencils and... stuff{"  "}
           <span class="group-hover:underline">→</span>
         </div>
       </a>
@@ -101,12 +101,16 @@ function Intro() {
           </h2>
 
           <p class="mt-4 text-gray-600">
-            I am a coffee enthusiast, climber, painter, potter, DIYer and the{" "}
-            <b>People & Culture Lead</b> for the Digital Technologies team at{" "}
+            I am a coffee enthusiast, climber, painter, potter, DIYer and the
+            {" "}
+            <b>People & Culture Lead</b> for the Digital Technologies team at
+            {" "}
             <span class="text-blue-600">
-              <a href="http://www.tharsus.co.uk" class="hover:underline focus:underline">
-                Tharsus{"  "}
-                <span class="group-hover:underline">→</span>
+              <a
+                href="http://www.tharsus.co.uk"
+                class="hover:underline focus:underline"
+              >
+                Tharsus{"  "}<span class="group-hover:underline">→</span>
               </a>
             </span>
           </p>
@@ -127,22 +131,23 @@ function Intro() {
   );
 }
 
-function Showcase() {
+function About() {
   return (
     <section class="max-w-screen-md mx-auto my-16 px(4 sm:6 md:8) space-y-4">
       <h2 id="showcase" class="text(3xl gray-600) font-bold">
         <p>About Me</p>
       </h2>
       <p class="text-gray-600">
-        My name is Olly - I'm 28 and originally from Whitby. I moved to Newcastle-upon-Tyne after
-        my MSc in Mechatronics and Robotics from Leeds. I live in here still
-        with my partner Rach and my Ragdoll cat Pickles.
+        My name is Olly - I'm 28 and originally from Whitby. I moved to
+        Newcastle-upon-Tyne after my MSc in Mechatronics and Robotics from
+        Leeds. I live in here still with my partner Rach and my Ragdoll cat
+        Pickles.
       </p>
       {/* <Projects items={projects.slice(0, 3)} class="gap-8" /> */}
       <div class="flex gap-2 items-center justify-end text-blue-600">
         <Icons.ArrowRight />
         <a href="./about" class="hover:underline focus:underline">
-          Learn more
+          About Me
         </a>
       </div>
     </section>

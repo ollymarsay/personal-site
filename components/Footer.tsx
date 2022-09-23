@@ -1,12 +1,21 @@
+import * as Icons from "../components/Icons.tsx";
+
 const LINKS = [
     {
       title: "LinkedIn",
       href: "https://www.linkedin.com/in/ollymarsay/",
+      icon: <Icons.LinkedIn />
     },
     {
       title: "Twitter",
       href: "https://twitter.com/marsayolly",
+      icon: <Icons.Twitter />
     },
+    {
+      title: "Instagram",
+      href: "https://www.instagram.com/ollymarsay/",
+      icon: <Icons.Instagram />
+    }
   ];
   
   export default function Footer() {
@@ -15,7 +24,7 @@ const LINKS = [
         <div class="mx-auto max-w-screen-lg flex items-center justify-center gap-8">
           {LINKS.map((link) => (
             <a href={link.href} class="text-gray-600 hover:underline">
-              {link.title}
+              {link.icon}
             </a>
           ))}
         </div>
