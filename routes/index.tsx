@@ -5,6 +5,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head, asset } from "$fresh/runtime.ts";
 
 import Footer from "../components/Footer.tsx";
+import HelloBar from "../components/HelloBar.tsx";
 import InteractiveHello from "../islands/InteractiveHello.tsx";
 
 export const handler: Handlers = {
@@ -23,7 +24,7 @@ export const handler: Handlers = {
 
 const TITLE = "Olly Marsay";
 const DESCRIPTION =
-  "The personal webpage for olly marsay - build using fresh framework";
+  "The personal home page for Olly Marsay - built using fresh framework";
 
 export default function Home(props: PageProps) {
   const ogImageUrl = new URL(asset("/home-og.png"), props.url).href;
@@ -53,18 +54,6 @@ export default function Home(props: PageProps) {
         }
       </div>
     </>
-  );
-}
-
-function HelloBar() {
-  return (
-    <a
-      class="bg-red-400 text-black border(b red-500) p-3 text-center group"
-      href="https://www.origincoffee.co.uk/products/beija-flor"
-    >
-      <b>Brewing This Week:</b> Brazilian <b>Beija Flor</b> roasted by{" "}
-      <b>Origin Coffee</b>{"  "}<span class="group-hover:underline">→</span>
-    </a>
   );
 }
 
