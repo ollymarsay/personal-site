@@ -73,7 +73,7 @@ function Intro() {
         </div>
         <picture class="block mt-4 md:mt-0">
           <img
-            src="/paint-flower.svg"
+            src="/paint2-flower.svg"
             class="w-80 mx-auto"
             width={800}
             height={678}
