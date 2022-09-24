@@ -5,6 +5,7 @@ import { Head, asset } from "https://deno.land/x/fresh@1.1.1/runtime.ts";
 
 import Footer from "../components/Footer.tsx";
 import HelloBar from "../components/HelloBar.tsx";
+import Showcase from "../components/Showcase.tsx";
 
 export const handler: Handlers = {
   async GET(req, ctx) {
@@ -40,7 +41,7 @@ export default function Work(props: PageProps) {
             <Intro />
             {/* <GettingStarted origin={origin} /> */}
             <Paragraph />
-            {/* <Showcase /> */}
+            <Showcase />
             <Footer />
           </div>
         }
@@ -81,7 +82,6 @@ function Intro() {
           />
         </picture>
       </div>
-      {/* <Features /> */}
     </section>
   );
 }
@@ -89,19 +89,11 @@ function Intro() {
 function Paragraph() {
   return (
     <section class="max-w-screen-md mx-auto my-12 px(4 sm:6 md:8) space-y-4">
-      <h2 id="showcase" class="text(3xl gray-600) font-bold">
-        <p>What're you working on?</p>
-      </h2>
       <p class="text-gray-600">
-        Work coming <span class="text-red-500">soon.</span>
-        {/* <div class="flex gap-2 items-center justify-end text-blue-600">
-          <Icons.ArrowRight />
-          <a href="./cv" class="hover:underline focus:underline">
-            View my CV
-          </a>
-        </div> */}
+        Some of the work listed below will have a (T) which indicates work done
+        at/with Tharsus. Some of this may have the title "IP Protected" as some
+        of the work I do is confidential customer IP which must be protected.
       </p>
-      {/* <Projects items={projects.slice(0, 3)} class="gap-8" /> */}
     </section>
   );
 }
