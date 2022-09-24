@@ -5,6 +5,7 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head, asset } from "https://deno.land/x/fresh@1.1.1/runtime.ts";
 
 import Footer from "../components/Footer.tsx";
+import Gallery from "../components/Gallery.tsx";
 import HelloBar from "../components/HelloBar.tsx";
 
 export const handler: Handlers = {
@@ -39,8 +40,8 @@ export default function Coffee(props: PageProps) {
           <div class="flex-1">
             <Intro />
             {/* <GettingStarted origin={origin} /> */}
-            <Paragraph />
-            {/* <Showcase /> */}
+            {/* <Paragraph /> */}
+            <Gallery />
             <Footer />
           </div>
         }
@@ -81,20 +82,6 @@ function Intro() {
           />
         </picture>
       </div>
-    </section>
-  );
-}
-
-function Paragraph() {
-  return (
-    <section class="max-w-screen-md mx-auto my-12 px(4 sm:6 md:8) space-y-4">
-      <h2 id="showcase" class="text(3xl gray-600) font-bold">
-        <p>What did you make!?</p>
-      </h2>
-      <p class="text-gray-600">
-        Gallery coming {" "}<span class="text-red-500">soon.</span>
-      </p>
-      {/* <Projects items={projects.slice(0, 3)} class="gap-8" /> */}
     </section>
   );
 }
