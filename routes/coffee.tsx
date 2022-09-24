@@ -128,7 +128,7 @@ function Paragraph() {
           <div class="flex gap-2 items-center justify-start text-blue-600">
             <Icons.ArrowRight />
             <a
-              href="https://prz.io/k5zDEaAuB"
+              href="https://flairespresso.com/product/flair-58/"
               class="hover:underline focus:underline"
             >
               Flair 58 Manual Espresso Machine
