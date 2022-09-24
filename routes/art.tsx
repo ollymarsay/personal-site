@@ -15,8 +15,8 @@ export const handler: Handlers = {
   },
 };
 
-const TITLE = "Olly Marsay | Coffee";
-const DESCRIPTION = "Olly's Coffee Setup - built using fresh framework";
+const TITLE = "Olly Marsay | Art";
+const DESCRIPTION = "Olly's Art - built using fresh framework";
 
 export default function Coffee(props: PageProps) {
   const ogImageUrl = new URL(asset("/home-og.png"), props.url).href;
