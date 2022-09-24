@@ -3,6 +3,7 @@ import * as Icons from "../components/Icons.tsx";
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head, asset } from "https://deno.land/x/fresh@1.1.1/runtime.ts";
 
+import Footer from "../components/Footer.tsx";
 import HelloBar from "../components/HelloBar.tsx";
 
 export const handler: Handlers = {
@@ -40,7 +41,7 @@ export default function Home(props: PageProps) {
             {/* <GettingStarted origin={origin} /> */}
             <Paragraph />
             {/* <Showcase /> */}
-            {/* <Footer /> */}
+            <Footer />
           </div>
         }
       </div>
