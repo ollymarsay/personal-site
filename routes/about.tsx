@@ -109,7 +109,7 @@ function Paragraph() {
         departments:
         <div class="flex gap-2 items-center justify-end text-blue-600">
           <Icons.ArrowRight />
-          <a href="./cv" class="hover:underline focus:underline">
+          <a href="https://ollymarsay.notion.site/Olly-Marsay-c030386cc70c460fbe8da5521992f72a" class="hover:underline focus:underline">
             View my CV
           </a>
         </div>
