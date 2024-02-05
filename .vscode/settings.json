@@ -4,5 +4,6 @@
   "deno.unstable": true,
   "[xml]": {
     "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
-  }
+  },
+  "deno.lint": true
 }

@@ -123,7 +123,7 @@ function Paragraph() {
               href="https://fellowproducts.com/products/ode-brew-grinder?variant=39859573817444"
               class="hover:underline focus:underline"
             >
-              Fellow Ode + SSP MP Burrs
+              Fellow Ode (w/ Mazzer Super Burrs)
             </a>
           </div>
           <div class="flex gap-2 items-center justify-start text-blue-600">
@@ -141,7 +141,7 @@ function Paragraph() {
               href="https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle?variant=18635551080563"
               class="hover:underline focus:underline"
             >
-              Fellow Stagg Pour Over Kettle
+              Fellow Stagg Pour Over Kettle - I have two of these 😅
             </a>
           </div>
           <div class="flex gap-2 items-center justify-start text-blue-600">
@@ -169,6 +169,24 @@ function Paragraph() {
               class="hover:underline focus:underline"
             >
               Timemore Black Mirror Nano Scales
+            </a>
+          </div>
+          <div class="flex gap-2 items-center justify-start text-blue-600">
+            <Icons.ArrowRight />
+            <a
+              href="https://lelit.com/product/marax-pl62x/"
+              class="hover:underline focus:underline"
+            >
+              Lelit MaraX V2
+            </a>
+          </div>
+          <div class="flex gap-2 items-center justify-start text-blue-600">
+            <Icons.ArrowRight />
+            <a
+              href="https://df64p.com/"
+              class="hover:underline focus:underline"
+            >
+              DF64P Grinder (w/ SSP MP Burrs)
             </a>
           </div>
         </dl>

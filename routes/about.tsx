@@ -97,22 +97,20 @@ function Paragraph() {
         <br /> <br />
         I moved to Newcastle-upon-Tyne after my MSc in Mechatronics and Robotics
         from Leeds and I live in here with my partner Rach and my Ragdoll cat
-        Pickles. <br /> <br />
+        Pickles and my dog, Radish. <br /> <br />
         I spend a bunch of my free time making things, this website, paintings,
         pots, drawings and more! You can see more of that on{"  "}
         <a href="./art" class="hover:underline focus:underline text-blue-600">
           my art page{"  "}<span class="group-hover:underline">→</span>
         </a>
         <br /> <br />
-        I work at Tharsus where I am a People & Culture Manager. In the 5 years
-        I have worked at Tharsus I've had many roles across multiple
-        departments:
-        <div class="flex gap-2 items-center justify-end text-blue-600">
+        I work at Camunda where I am a Senior People Operations Specialist. I love working fully remote and helping teams simplify operational complexities.
+        {/* <div class="flex gap-2 items-center justify-end text-blue-600">
           <Icons.ArrowRight />
           <a href="https://ollymarsay.notion.site/Olly-Marsay-c030386cc70c460fbe8da5521992f72a" class="hover:underline focus:underline">
             View my CV
           </a>
-        </div>
+        </div> */}
       </p>
       {/* <Projects items={projects.slice(0, 3)} class="gap-8" /> */}
     </section>

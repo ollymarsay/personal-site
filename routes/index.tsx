@@ -7,6 +7,7 @@ import { Head, asset } from "$fresh/runtime.ts";
 import Footer from "../components/Footer.tsx";
 import HelloBar from "../components/HelloBar.tsx";
 import InteractiveHello from "../islands/InteractiveHello.tsx";
+import CalculateAge from "../islands/CalculateAge.tsx";
 
 export const handler: Handlers = {
   GET(req, ctx) {
@@ -71,13 +72,13 @@ function Features() {
         </div>
       </a>
 
-      <a class={item} href="/work">
+      {/* <a class={item} href="/work">
         <FeatureIcons.Laptop />
         <div class={desc}>
           <b>Some examples of work</b> I've done during my time with Tharsus{"  "}
           <span class="group-hover:underline">→</span>
         </div>
-      </a>
+      </a> */}
 
       <a class={item} href="/art">
         <FeatureIcons.Pallette />
@@ -86,6 +87,15 @@ function Features() {
           <span class="group-hover:underline">→</span>
         </div>
       </a>
+
+      <a class={item} href="/">
+        <FeatureIcons.Laptop />
+        <div class={desc}>
+          <b>Work section</b> coming soon...{"  "}
+          <span class="group-hover:underline">→</span>
+        </div>
+      </a>
+
     </div>
   );
 }
@@ -103,14 +113,14 @@ function Intro() {
           <p class="mt-4 text-gray-600">
             I am a coffee enthusiast, climber, painter, potter, DIYer and the
             {" "}
-            <b>People & Culture Lead</b> for the Digital Technologies team at
+            <b>Senior People Operations Specialist</b> for the People team at
             {" "}
             <span class="text-blue-600">
               <a
-                href="http://www.tharsus.co.uk"
+                href="http://www.camunda.com"
                 class="hover:underline focus:underline"
               >
-                Tharsus{"  "}<span class="group-hover:underline">→</span>
+                Camunda{"  "}<span class="group-hover:underline">→</span>
               </a>
             </span>
           </p>
@@ -138,18 +148,18 @@ function About() {
         <p>About Me</p>
       </h2>
       <p class="text-gray-600">
-        My name is Olly - I'm 28 and originally from Whitby. I moved to
-        Newcastle-upon-Tyne after my MSc in Mechatronics and Robotics from
-        Leeds. I live in here still with my partner Rach and my Ragdoll cat
-        Pickles.
+        I'm Olly, a <CalculateAge />-year-old human being residing in the charming North East of England. Sharing my abode with me are my wonderful partner, Rach, our loyal canine companion, Radish, and the ever-crusty Ragdoll cat named Pickles.<br /><br />
+        Professionally, I'm a Senior People Operations Specialist at Camunda. My current role involves dedicated efforts towards streamlining intricate processes that's in the exciting phase of scaling up.<br /><br />
+        When I'm not immersed in the world of operational excellence, you can often find me exploring the local landscapes with Radish, being a potato with Pickles curled up nearby.<br /><br />
+        Thank you for stopping by!
       </p>
       {/* <Projects items={projects.slice(0, 3)} class="gap-8" /> */}
-      <div class="flex gap-2 items-center justify-end text-blue-600">
+      {/* <div class="flex gap-2 items-center justify-end text-blue-600">
         <Icons.ArrowRight />
         <a href="./about" class="hover:underline focus:underline">
           About Me
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }
